@@ -7,11 +7,17 @@ $(window).on("load", function() {
   bootstrap.setAttribute('href', 'css/bootstrap.css');
   document.getElementsByTagName("head")[0].appendChild(bootstrap);
 
-  let owl = document.createElement("link");
-  owl.setAttribute('rel', 'stylesheet');
-  owl.setAttribute('type', 'text/css');
-  owl.setAttribute('href', 'css/owl.css');
-  document.getElementsByTagName("head")[0].appendChild(owl);
+  let owlCar = document.createElement("link");
+  owlCar.setAttribute('rel', 'stylesheet');
+  owlCar.setAttribute('type', 'text/css');
+  owlCar.setAttribute('href', 'css/owl.carousel.css');
+  document.getElementsByTagName("head")[0].appendChild(owlCar);
+
+  let owlTrans = document.createElement("link");
+  owlTrans.setAttribute('rel', 'stylesheet');
+  owlTrans.setAttribute('type', 'text/css');
+  owlTrans.setAttribute('href', 'css/owl.transitions.css');
+  document.getElementsByTagName("head")[0].appendChild(owlTrans);
 
   let animate = document.createElement("link");
   animate.setAttribute('rel', 'stylesheet');
